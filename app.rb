@@ -9,6 +9,10 @@ class App < Sinatra::Base
     erb :reversed
   end
 
+  get '/' do
+    "Pasing Data between views and controllers"
+  end
+
   get '/friends' do
     # Write your code here!
 
